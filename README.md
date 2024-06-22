@@ -1,3 +1,4 @@
+Project title
 AZURE Token (AZUR)
 
 Simple Overview
