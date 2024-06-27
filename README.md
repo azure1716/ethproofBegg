@@ -1,10 +1,10 @@
-## Project title
+# Project title
 AZURE Token (AZUR)
 
-# Simple Overview
+## Simple Overview
 The AZURE Token (AZUR) is a basic ERC-20-like token implemented on the Ethereum blockchain. It includes functionalities to mint and burn tokens, while also providing a secure way to manage token balances.
 
-# Description
+## Description
 The AZURE Token (AZUR) project is a straightforward smart contract developed using Solidity, designed to demonstrate fundamental concepts of token creation and management on the Ethereum blockchain. This project aims to provide a basic understanding of how tokens work, focusing on the core functionalities of minting and burning tokens.
 
 The contract includes public variables to store the token's name, abbreviation, and total supply, allowing for easy access to this information. It also uses a mapping to keep track of the balance of each address. The mint function enables the contract owner to increase the total supply and the balance of a specified address, simulating the creation of new tokens. Conversely, the burn function allows any address to destroy a specified amount of tokens from their balance, provided they have sufficient tokens, thereby reducing the total supply.
