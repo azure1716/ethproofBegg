@@ -1,10 +1,10 @@
-##Project title
+## Project title
 AZURE Token (AZUR)
 
-#Simple Overview
+# Simple Overview
 The AZURE Token (AZUR) is a basic ERC-20-like token implemented on the Ethereum blockchain. It includes functionalities to mint and burn tokens, while also providing a secure way to manage token balances.
 
-#Description
+# Description
 The AZURE Token (AZUR) project is a straightforward smart contract developed using Solidity, designed to demonstrate fundamental concepts of token creation and management on the Ethereum blockchain. This project aims to provide a basic understanding of how tokens work, focusing on the core functionalities of minting and burning tokens.
 
 The contract includes public variables to store the token's name, abbreviation, and total supply, allowing for easy access to this information. It also uses a mapping to keep track of the balance of each address. The mint function enables the contract owner to increase the total supply and the balance of a specified address, simulating the creation of new tokens. Conversely, the burn function allows any address to destroy a specified amount of tokens from their balance, provided they have sufficient tokens, thereby reducing the total supply.
@@ -13,13 +13,13 @@ Security and access control are integral parts of the contract. Only the owner o
 
 Overall, the AZURE Token (AZUR) project serves as an educational tool for understanding token economics and smart contract development on the Ethereum blockchain. It provides a simple yet effective foundation for anyone interested in exploring the world of decentralized finance (DeFi) and blockchain technology.
 
-##Getting Started
+## Getting Started
 Executing program
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
 Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a.sol extension (e.g., project.sol). Copy and paste the following code into the file:
 
-
+---solidity
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 
@@ -56,5 +56,5 @@ Once the code is compiled, you can deploy the contract by clicking on the "Deplo
 
 Once the contract is deployed, you can interact with it by calling both the functions.
 
-##Author
+## Author
 HARSH KUMAR SHARMA STUDENT CHANDIGARH UNIVERSITY
