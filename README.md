@@ -19,7 +19,7 @@ To run this program, you can use Remix, an online Solidity IDE. To get started, 
 
 Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a.sol extension (e.g., project.sol). Copy and paste the following code into the file:
 
----solidity
+```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 
@@ -49,7 +49,7 @@ contract MyToken {
     }
 
 }
----
+```
 
 To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.7" (or another compatible version), and then click on the "create a token.sol" button.
 
